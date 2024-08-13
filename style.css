@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=New+Amsterdam&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +12,14 @@
     --branco: #ffffffff;
     --cinza: #d9d9d9ff;
     --azul-escuro: #284b63ff;
+    --fonte-titulo:"New Amsterdam", sans-serif;
+    --fonte-texto:"Gupter", serif; 
+
+}
+
+body{
+background-color:  var(--azul)
+font-family: var(--fonte-texto)
+font-size: 16px;
+
 }
